@@ -10,6 +10,7 @@ public class Numbers {
     }
 
     private static boolean lessThanAThousand(int i){
+	    System.out.println(i);
         return i < 1000;
     }
 }
